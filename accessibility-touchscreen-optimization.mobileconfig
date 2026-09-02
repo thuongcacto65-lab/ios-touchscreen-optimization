@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Accessibility Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.accessibility.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.accessibility</string>
+			<key>PayloadUUID</key>
+			<string>12345678-1234-1234-1234-123456789012</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AccessibilityEnabled</key>
+			<true/>
+			<key>AssistiveTouchEnabled</key>
+			<true/>
+			<key>ZoomEnabled</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Optimizes touch response, enables AssistiveTouch, and enhances gesture performance for iOS devices</string>
+	<key>PayloadDisplayName</key>
+	<string>iOS Touch & Accessibility Optimization</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.ios.touchoptimize</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>87654321-4321-4321-4321-210987654321</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
