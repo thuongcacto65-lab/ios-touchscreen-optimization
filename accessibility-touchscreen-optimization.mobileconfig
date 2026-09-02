@@ -6,36 +6,50 @@
 	<array>
 		<dict>
 			<key>PayloadDisplayName</key>
-			<string>Accessibility Settings</string>
+			<string>Cảm Ứng Tối Ưu</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.accessibility.settings</string>
+			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadType</key>
-			<string>com.apple.accessibility</string>
+			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>12345678-1234-1234-1234-123456789012</string>
+			<string>F47AC10B-58CC-4372-A567-0E02B2C3D479</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>AccessibilityEnabled</key>
-			<true/>
-			<key>AssistiveTouchEnabled</key>
-			<true/>
-			<key>ZoomEnabled</key>
-			<false/>
+			<key>Forced</key>
+			<array>
+				<dict>
+					<key>mcx_preference_settings</key>
+					<dict>
+						<key>com.apple.Accessibility</key>
+						<dict>
+							<key>AXAssistiveTouchEnabled</key>
+							<true/>
+							<key>AXTouchSensitivity</key>
+							<integer>10</integer>
+						</dict>
+					</dict>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Optimizes touch response, enables AssistiveTouch, and enhances gesture performance for iOS devices</string>
+	<string>Tối ưu hóa phản hồi cảm ứng và AssistiveTouch cho iOS</string>
 	<key>PayloadDisplayName</key>
-	<string>iOS Touch & Accessibility Optimization</string>
+	<string>Touch Response Optimization</string>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.ios.touchoptimize</string>
+	<string>com.apple.touch.optimization</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>87654321-4321-4321-4321-210987654321</string>
+	<string>A47AC10B-58CC-4372-A567-0E02B2C3D479</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Hồ sơ này tối ưu hóa cảm ứng màn hình và bật AssistiveTouch.</string>
+	</dict>
 </dict>
 </plist>
