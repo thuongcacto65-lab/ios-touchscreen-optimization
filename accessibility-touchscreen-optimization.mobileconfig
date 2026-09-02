@@ -2,54 +2,56 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Tối ưu hóa cảm ứng và AssistiveTouch</string>
+	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadDisplayName</key>
-			<string>Cảm Ứng Tối Ưu</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.ManagedClient.preferences</string>
-			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
-			<key>PayloadUUID</key>
-			<string>F47AC10B-58CC-4372-A567-0E02B2C3D479</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
 			<key>Forced</key>
 			<array>
 				<dict>
 					<key>mcx_preference_settings</key>
 					<dict>
-						<key>com.apple.Accessibility</key>
+						<key>com.apple.accessibility</key>
 						<dict>
 							<key>AXAssistiveTouchEnabled</key>
-							<true/>
-							<key>AXTouchSensitivity</key>
-							<integer>10</integer>
+							<integer>1</integer>
 						</dict>
 					</dict>
 				</dict>
 			</array>
+			<key>PayloadDescription</key>
+			<string>Cấu hình Accessibility</string>
+			<key>PayloadDisplayName</key>
+			<string>Accessibility</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ManagedClient.preferences.Accessibility</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>5A4A6A4A-4A4A-4A4A-4A4A-4A4A4A4A4A4A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Tối ưu hóa phản hồi cảm ứng và AssistiveTouch cho iOS</string>
+	<string>Hồ sơ tối ưu hóa cảm ứng và AssistiveTouch</string>
 	<key>PayloadDisplayName</key>
-	<string>Touch Response Optimization</string>
+	<string>Touch Optimization</string>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.touch.optimization</string>
+	<string>com.apple.ios.touch.optimization</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A47AC10B-58CC-4372-A567-0E02B2C3D479</string>
+	<string>6B5B7B5B-5B5B-5B5B-5B5B-5B5B5B5B5B5B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>ConsentText</key>
-	<dict>
-		<key>default</key>
-		<string>Hồ sơ này tối ưu hóa cảm ứng màn hình và bật AssistiveTouch.</string>
-	</dict>
+	<key>DurationUntilRemovalIsForced</key>
+	<integer>0</integer>
 </dict>
 </plist>
